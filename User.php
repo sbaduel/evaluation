@@ -60,11 +60,21 @@ class User
         $this->prenom = $prenom;
     }
 
+    public function setprenom($prenom)
+    {
+        $this->prenom = $prenom;
+    }
+
     public function setage($age)
     {
         $this->age = $age;
     }
 	
+    public function getage()
+    {
+        return $this->$age;
+    }
+
 	public function getMail()
     {
         return $this->mail;
