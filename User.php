@@ -7,7 +7,7 @@ class User
 	private $mail;
 	private $dateCreation;
  
-    public function __construct($login, $password, $mail, $dateCreation)
+    public function __construct($login, $password, $mail, $nom, $prenom, $age, $dateCreation)
     {
         $this->login = $login;
         $this->password = $password;
