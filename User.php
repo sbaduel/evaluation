@@ -55,7 +55,7 @@ class User
         return $this->nom;
     }
 
-    public function prenom($prenom)
+    public function getprenom($prenom)
     {
         $this->prenom = $prenom;
     }
