@@ -45,6 +45,39 @@ class User
         return $this->mail;
     }
 
+    public function setnom($nom)
+    {
+        $this->nom = $nom;
+    }
+	
+	public function getnom()
+    {
+        return $this->nom;
+    }
+
+    public function prenom($prenom)
+    {
+        $this->prenom = $prenom;
+    }
+
+    public function setage($age)
+    {
+        $this->age = $age;
+    }
+	
+	public function getMail()
+    {
+        return $this->mail;
+    }
+
+	
+	public function getMail()
+    {
+        return $this->mail;
+    }
+
+
+
     public function setDateCreation($dateCreation)
     {
         $this->dateCreation = $dateCreation;
